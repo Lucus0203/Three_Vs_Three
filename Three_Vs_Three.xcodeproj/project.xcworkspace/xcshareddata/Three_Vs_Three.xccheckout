@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A5176978-B2E4-4259-9DC4-C57C36DB81E3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Three_Vs_Three</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BD1DFD263EE6EADB458E811964317EA75A5A4B84</key>
+		<string>https://github.com/Lucus0203/Three_Vs_Three.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Three_Vs_Three.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BD1DFD263EE6EADB458E811964317EA75A5A4B84</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Lucus0203/Three_Vs_Three.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BD1DFD263EE6EADB458E811964317EA75A5A4B84</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BD1DFD263EE6EADB458E811964317EA75A5A4B84</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Three_Vs_Three</string>
+		</dict>
+	</array>
+</dict>
+</plist>

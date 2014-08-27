@@ -12,6 +12,15 @@
 		AADD476B19AE425200176272 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADD476919AE425200176272 /* Main.storyboard */; };
 		AADD476D19AE425200176272 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADD476C19AE425200176272 /* Images.xcassets */; };
 		AADD477919AE425200176272 /* Three_Vs_ThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADD477819AE425200176272 /* Three_Vs_ThreeTests.swift */; };
+		AADD47AE19AE483D00176272 /* mibg.png in Resources */ = {isa = PBXBuildFile; fileRef = AADD47A719AE483D00176272 /* mibg.png */; };
+		AADD47AF19AE483D00176272 /* hei@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AADD47A819AE483D00176272 /* hei@2x.png */; };
+		AADD47B019AE483D00176272 /* bai.png in Resources */ = {isa = PBXBuildFile; fileRef = AADD47A919AE483D00176272 /* bai.png */; };
+		AADD47B119AE483D00176272 /* mibg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AADD47AA19AE483D00176272 /* mibg@2x.png */; };
+		AADD47B219AE483D00176272 /* mibg_1136h.png in Resources */ = {isa = PBXBuildFile; fileRef = AADD47AB19AE483D00176272 /* mibg_1136h.png */; };
+		AADD47B319AE483D00176272 /* hei.png in Resources */ = {isa = PBXBuildFile; fileRef = AADD47AC19AE483D00176272 /* hei.png */; };
+		AADD47B419AE483D00176272 /* bai@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AADD47AD19AE483D00176272 /* bai@2x.png */; };
+		AADD47B619AE484700176272 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AADD47B519AE484700176272 /* icon@2x.png */; };
+		AADD47B819AE4C3700176272 /* ThreeGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADD47B719AE4C3700176272 /* ThreeGameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,15 @@
 		AADD477219AE425200176272 /* Three_Vs_ThreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Three_Vs_ThreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AADD477719AE425200176272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AADD477819AE425200176272 /* Three_Vs_ThreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Three_Vs_ThreeTests.swift; sourceTree = "<group>"; };
+		AADD47A719AE483D00176272 /* mibg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mibg.png; path = img/mibg.png; sourceTree = "<group>"; };
+		AADD47A819AE483D00176272 /* hei@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hei@2x.png"; path = "img/hei@2x.png"; sourceTree = "<group>"; };
+		AADD47A919AE483D00176272 /* bai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bai.png; path = img/bai.png; sourceTree = "<group>"; };
+		AADD47AA19AE483D00176272 /* mibg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mibg@2x.png"; path = "img/mibg@2x.png"; sourceTree = "<group>"; };
+		AADD47AB19AE483D00176272 /* mibg_1136h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mibg_1136h.png; path = img/mibg_1136h.png; sourceTree = "<group>"; };
+		AADD47AC19AE483D00176272 /* hei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hei.png; path = img/hei.png; sourceTree = "<group>"; };
+		AADD47AD19AE483D00176272 /* bai@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bai@2x.png"; path = "img/bai@2x.png"; sourceTree = "<group>"; };
+		AADD47B519AE484700176272 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "img/icon@2x.png"; sourceTree = "<group>"; };
+		AADD47B719AE4C3700176272 /* ThreeGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeGameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +95,7 @@
 			children = (
 				AADD476519AE425200176272 /* AppDelegate.swift */,
 				AADD476719AE425200176272 /* ViewController.swift */,
+				AADD47B719AE4C3700176272 /* ThreeGameScene.swift */,
 				AADD476919AE425200176272 /* Main.storyboard */,
 				AADD476C19AE425200176272 /* Images.xcassets */,
 				AADD476319AE425200176272 /* Supporting Files */,
@@ -87,6 +106,8 @@
 		AADD476319AE425200176272 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AADD47B519AE484700176272 /* icon@2x.png */,
+				AADD478619AE471700176272 /* img */,
 				AADD476419AE425200176272 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -107,6 +128,20 @@
 				AADD477719AE425200176272 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AADD478619AE471700176272 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				AADD47A719AE483D00176272 /* mibg.png */,
+				AADD47A819AE483D00176272 /* hei@2x.png */,
+				AADD47A919AE483D00176272 /* bai.png */,
+				AADD47AA19AE483D00176272 /* mibg@2x.png */,
+				AADD47AB19AE483D00176272 /* mibg_1136h.png */,
+				AADD47AC19AE483D00176272 /* hei.png */,
+				AADD47AD19AE483D00176272 /* bai@2x.png */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,8 +224,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AADD47B419AE483D00176272 /* bai@2x.png in Resources */,
+				AADD47B319AE483D00176272 /* hei.png in Resources */,
+				AADD47B219AE483D00176272 /* mibg_1136h.png in Resources */,
+				AADD47B019AE483D00176272 /* bai.png in Resources */,
+				AADD47B119AE483D00176272 /* mibg@2x.png in Resources */,
 				AADD476B19AE425200176272 /* Main.storyboard in Resources */,
+				AADD47AF19AE483D00176272 /* hei@2x.png in Resources */,
 				AADD476D19AE425200176272 /* Images.xcassets in Resources */,
+				AADD47AE19AE483D00176272 /* mibg.png in Resources */,
+				AADD47B619AE484700176272 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AADD47B819AE4C3700176272 /* ThreeGameScene.swift in Sources */,
 				AADD476819AE425200176272 /* ViewController.swift in Sources */,
 				AADD476619AE425200176272 /* AppDelegate.swift in Sources */,
 			);
@@ -397,6 +441,7 @@
 				AADD477E19AE425200176272 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AADD477F19AE425200176272 /* Build configuration list for PBXNativeTarget "Three_Vs_ThreeTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +450,7 @@
 				AADD478119AE425200176272 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

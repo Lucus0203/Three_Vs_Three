@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AADD476619AE425200176272 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADD476519AE425200176272 /* AppDelegate.swift */; };
+		AADD476819AE425200176272 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADD476719AE425200176272 /* ViewController.swift */; };
+		AADD476B19AE425200176272 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADD476919AE425200176272 /* Main.storyboard */; };
+		AADD476D19AE425200176272 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADD476C19AE425200176272 /* Images.xcassets */; };
+		AADD477919AE425200176272 /* Three_Vs_ThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADD477819AE425200176272 /* Three_Vs_ThreeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AADD477319AE425200176272 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AADD475819AE425200176272 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AADD475F19AE425200176272;
+			remoteInfo = Three_Vs_Three;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AADD476019AE425200176272 /* Three_Vs_Three.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Three_Vs_Three.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AADD476419AE425200176272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AADD476519AE425200176272 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AADD476719AE425200176272 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AADD476A19AE425200176272 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AADD476C19AE425200176272 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AADD477219AE425200176272 /* Three_Vs_ThreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Three_Vs_ThreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AADD477719AE425200176272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AADD477819AE425200176272 /* Three_Vs_ThreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Three_Vs_ThreeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AADD475D19AE425200176272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADD476F19AE425200176272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AADD475719AE425200176272 = {
+			isa = PBXGroup;
+			children = (
+				AADD476219AE425200176272 /* Three_Vs_Three */,
+				AADD477519AE425200176272 /* Three_Vs_ThreeTests */,
+				AADD476119AE425200176272 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AADD476119AE425200176272 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AADD476019AE425200176272 /* Three_Vs_Three.app */,
+				AADD477219AE425200176272 /* Three_Vs_ThreeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AADD476219AE425200176272 /* Three_Vs_Three */ = {
+			isa = PBXGroup;
+			children = (
+				AADD476519AE425200176272 /* AppDelegate.swift */,
+				AADD476719AE425200176272 /* ViewController.swift */,
+				AADD476919AE425200176272 /* Main.storyboard */,
+				AADD476C19AE425200176272 /* Images.xcassets */,
+				AADD476319AE425200176272 /* Supporting Files */,
+			);
+			path = Three_Vs_Three;
+			sourceTree = "<group>";
+		};
+		AADD476319AE425200176272 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AADD476419AE425200176272 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AADD477519AE425200176272 /* Three_Vs_ThreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AADD477819AE425200176272 /* Three_Vs_ThreeTests.swift */,
+				AADD477619AE425200176272 /* Supporting Files */,
+			);
+			path = Three_Vs_ThreeTests;
+			sourceTree = "<group>";
+		};
+		AADD477619AE425200176272 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AADD477719AE425200176272 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AADD475F19AE425200176272 /* Three_Vs_Three */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AADD477C19AE425200176272 /* Build configuration list for PBXNativeTarget "Three_Vs_Three" */;
+			buildPhases = (
+				AADD475C19AE425200176272 /* Sources */,
+				AADD475D19AE425200176272 /* Frameworks */,
+				AADD475E19AE425200176272 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Three_Vs_Three;
+			productName = Three_Vs_Three;
+			productReference = AADD476019AE425200176272 /* Three_Vs_Three.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AADD477119AE425200176272 /* Three_Vs_ThreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AADD477F19AE425200176272 /* Build configuration list for PBXNativeTarget "Three_Vs_ThreeTests" */;
+			buildPhases = (
+				AADD476E19AE425200176272 /* Sources */,
+				AADD476F19AE425200176272 /* Frameworks */,
+				AADD477019AE425200176272 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AADD477419AE425200176272 /* PBXTargetDependency */,
+			);
+			name = Three_Vs_ThreeTests;
+			productName = Three_Vs_ThreeTests;
+			productReference = AADD477219AE425200176272 /* Three_Vs_ThreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AADD475819AE425200176272 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = lucus;
+				TargetAttributes = {
+					AADD475F19AE425200176272 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					AADD477119AE425200176272 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = AADD475F19AE425200176272;
+					};
+				};
+			};
+			buildConfigurationList = AADD475B19AE425200176272 /* Build configuration list for PBXProject "Three_Vs_Three" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AADD475719AE425200176272;
+			productRefGroup = AADD476119AE425200176272 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AADD475F19AE425200176272 /* Three_Vs_Three */,
+				AADD477119AE425200176272 /* Three_Vs_ThreeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AADD475E19AE425200176272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AADD476B19AE425200176272 /* Main.storyboard in Resources */,
+				AADD476D19AE425200176272 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADD477019AE425200176272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AADD475C19AE425200176272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AADD476819AE425200176272 /* ViewController.swift in Sources */,
+				AADD476619AE425200176272 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADD476E19AE425200176272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AADD477919AE425200176272 /* Three_Vs_ThreeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AADD477419AE425200176272 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AADD475F19AE425200176272 /* Three_Vs_Three */;
+			targetProxy = AADD477319AE425200176272 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AADD476919AE425200176272 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AADD476A19AE425200176272 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AADD477A19AE425200176272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AADD477B19AE425200176272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AADD477D19AE425200176272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Three_Vs_Three/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AADD477E19AE425200176272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Three_Vs_Three/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AADD478019AE425200176272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Three_Vs_ThreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Three_Vs_Three.app/Three_Vs_Three";
+			};
+			name = Debug;
+		};
+		AADD478119AE425200176272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Three_Vs_ThreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Three_Vs_Three.app/Three_Vs_Three";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AADD475B19AE425200176272 /* Build configuration list for PBXProject "Three_Vs_Three" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AADD477A19AE425200176272 /* Debug */,
+				AADD477B19AE425200176272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AADD477C19AE425200176272 /* Build configuration list for PBXNativeTarget "Three_Vs_Three" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AADD477D19AE425200176272 /* Debug */,
+				AADD477E19AE425200176272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AADD477F19AE425200176272 /* Build configuration list for PBXNativeTarget "Three_Vs_ThreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AADD478019AE425200176272 /* Debug */,
+				AADD478119AE425200176272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AADD475819AE425200176272 /* Project object */;
+}
